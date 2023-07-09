@@ -34,9 +34,9 @@ $x = 0;
 //   $x++;
 // } while ($x <= 10);
 
-foreach ($lotr_characters as $key => $value) {
+foreach ($lotr_characters as $index => $character) {
   # code...
-  var_dump( $lotr_characters[$key]['name']);
+  echo $index . ' - ' . $character['name'] . ' - ' . $character['side'];
   echo "<br>";
 }
 
